@@ -7,47 +7,44 @@
     font-size: 2.875rem;
   }
 
-  strong {
-    font-weight: 400;
-  }
-
   &--centered {
     text-align: center;
   }
-  
-  &--light {
-    font-weight: 100;
-  }
-  
+
   &--orange {
     color: $mainOrange;
   }
 
   &--small {
     font-size: 1.2rem;
-
     @mixin atSmall {
       font-size: 1.875rem;
     }
   }
-  
+
   &--narrow {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  &--margin-b-small {
+  &--light {
+    font-weight: 100;
+  }
+
+  strong {
+    font-weight: 400;
+  }
+
+  &--b-margin-small {
     margin-bottom: .5em;
   }
 
-  &--margin-b-large {
+  &--b-margin-large {
     margin-bottom: 1.6em;
   }
 
-  &--margin-t-none {
-    @mixin atMedium {
-      margin-top: 0;
-    }
+  &--no-t-margin {
+    margin-top: 0;
   }
 }
